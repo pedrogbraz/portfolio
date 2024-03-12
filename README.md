@@ -3,7 +3,7 @@
 <p align="left">
 <b>Portfólio</b> que desenvolvi do zero usando apenas <b>HTML, CSS e JavaScript.</b><br/>
 Mas pretendo futuramente lançar updates e deixa-lo mais complexo.<br>
-Upei ele no Netlify para caso queira ver ele completo: https://meuportfoliopedrogb.netlify.app
+Caso queira ver ele completo <a href="https://meuportfoliopedrogb.netlify.app">clique aqui</a>.
 </p>
 
 <br>
