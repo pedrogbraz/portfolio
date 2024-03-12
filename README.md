@@ -1,8 +1,9 @@
 <h1 align="left"> Portfólio </h1>
 
 <p align="left">
-<b>Portfólio</b> que desenvolvi do zero usando apenas <b>HTML, CSS e JavaScript</b><br/>
-Mas pretendo futuramente lançar updates e deixa-lo mais complexo
+<b>Portfólio</b> que desenvolvi do zero usando apenas <b>HTML, CSS e JavaScript.</b><br/>
+Mas pretendo futuramente lançar updates e deixa-lo mais complexo.<br>
+Upei ele no Netlify para caso queira ver ele completo: https://meuportfoliopedrogb.netlify.app
 </p>
 
 <br>
@@ -20,4 +21,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Git e Github
 - Figma
 
-O projeto foi feito no software <b>Visual Studio Code</b>
+O projeto foi feito no <b>Visual Studio Code.</b>
