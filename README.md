@@ -1,8 +1,8 @@
 <h1 align="left"> Portfólio </h1>
 
 <p align="left">
-<b>Portfólio</b> que desenvolvi do zero usando apenas <b>HTML, CSS e JavaScript</b><br/>
-Mas pretendo futuramente lançar updates e deixa-lo mais complexo
+<b>Portfólio</b> que desenvolvi do zero usando apenas <b>HTML, CSS e JavaScript.</b><br/>
+Mas pretendo futuramente lançar updates e deixa-lo mais complexo.
 </p>
 
 <br>
