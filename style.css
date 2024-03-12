@@ -288,7 +288,7 @@ body {
 }
 
 .skills {
-    padding: 20px 20px 20px 30px;
+    padding: 16px 24px 20px 30px;
     margin: 0px 12px 12px 12px;
     background-color: var(--metalBlack);
     border-radius: 15px;
@@ -303,31 +303,35 @@ body {
     color: #FFFFFFE6;
 }
 
-.habilidades .text-html {
-    padding-top: 6px;
-    padding-left: 8px;
-}
-
-.habilidades .text-css {
-    padding-top: 6px;
-    padding-left: 12px;
-}
-
-.habilidades .text-js {
-    padding-top: 6px;
-}
-
-.bolinha {
+.redes {
     width: 50px;
     height: 50px;
-    border: 2.5px solid var(--color-red-theme);
+    border: 2.5px solid var(--color-text-navbar);
     background-color: rgba(255, 0, 0, 0);
     border-radius: 50%; /* para tornar a div uma bolinha */
     color: white;
-    font-size: 12px;
+    font-size: 22px;
     text-align: center;
     line-height: 50px; /* para centralizar verticalmente o texto */
+    transition: 0.3s;
   }
+
+  .redes:hover {
+    border: 2.5px solid var(--color-red-theme);
+    transform: scale(1.02);
+  }
+
+.redes a {
+    display: block;
+    color: var(--textColor);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.redes a:hover {
+    color: var(--color-red-theme);
+}
+
 
 /* Container Principal */
 
