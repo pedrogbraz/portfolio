@@ -20,4 +20,4 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Git e Github
 - Figma
 
-O projeto foi feito no <b>Visual Studio Code</b>
+O projeto foi feito no <b>Visual Studio Code.</b>
