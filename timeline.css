@@ -82,7 +82,7 @@
   cursor: default;
 }
 
-.timeline .harvard:hover{
+/* .timeline .harvard:hover{
   color: #a51c30;
   transform: scale(1.02);
 }
@@ -95,7 +95,7 @@
 .timeline .alura:hover {
   color: var(--color-red-theme);
   transform: scale(1.08);
-}
+} */
 
 .timeline .event {
   border-bottom: 1px dashed rgba(255,255,255,0.1);

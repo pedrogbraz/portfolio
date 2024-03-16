@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css?family=Chivo:300,300i,400,400i,700,700i,900,900i|Saira+Extra+Condensed:100,200,300,400,500,600,700,800|Saira:100,200,300,400,500,600,700,800');
+
+:root {
+    --color-black: #000000;
+    --color-background-gray: #111011;
+    --color-background-black: #0F0E0F;
+    --color-white: #ffffff;
+    --color-red-theme: #a51c30;
+    --color-text-navbar: #5C5C5C;
+    --nightBlack: #212223;
+    --textColor: #999999;
+    --power__black: #18191A;
+    --metalBlack: #2d2e2f;
+    --greyBlack200: #333333;
+    --color-rocketseat: #8257e5;
+}
+
+* {
+    font-family: 'Saira', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--power__black);
+}
+
+.projetos {
+    border: 1px solid red;
+    margin: 20px;
+}
+
+.projetos01 img {
+    width: 1px;
+}

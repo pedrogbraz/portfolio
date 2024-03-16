@@ -187,6 +187,7 @@ body {
     border-radius: 50%;
     width: 140px;
     height: 140px;
+    cursor: default;
 }
 
 .gift-perfil .perfil {
@@ -471,6 +472,74 @@ body {
     font-size: 36px;
  }
 
+ /* Formulario de Contato */
+
+ .form-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+ }
+
+ #form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+ }
+
+ #form input {
+    background: var(--metalBlack);
+    color: var(--color-white);
+    border-radius: 50px;
+    border: none;
+    padding: 10px 10px 10px 20px;
+    width: 350px;
+    height: 50px;
+    outline: none;
+ }
+
+ #form input:hover {
+    border: 1px solid var(--color-text-navbar);
+ }
+
+
+ #form textarea {
+    background: var(--metalBlack);
+    border-radius: 10px;
+    width: 345px;
+    height: 200px;
+    padding: 15px;
+    border: none;
+    resize: none;
+    color: var(--color-white);
+    outline: none;
+ }
+
+ #form textarea:hover {
+    border: 1px solid var(--color-text-navbar);
+ }
+
+ 
+
+ #form button {
+    font-weight: 600;
+    width: 340px;
+    height: 50px;
+    background: var(--metalBlack);
+    border: none;
+    border-radius: 50px;
+    color: var(--textColor);
+    cursor: pointer;
+ }
+
+ #form button:hover {
+    border: 1px solid var(--color-red-theme);
+    color: var(--color-red-theme);
+ }
+
  /* Footer */
 
  .footer {
@@ -479,6 +548,14 @@ body {
 
  .footer .text-footer {
     color: var(--textColor);
+ }
+
+ .footer a {
+    color: var(--textColor);
+ }
+
+ .footer a:hover {
+    color: var(--color-red-theme);
  }
 
 .footer {

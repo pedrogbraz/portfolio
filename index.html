@@ -16,7 +16,7 @@
             <a href="#inicio" id="botao1">Inicio</a>
             <a href="#biografia" id="botao2">Biografia</a>
             <a href="#timeline" id="botao3">Linha do tempo</a>
-            <a href="#projetos" id="botao4">Projetos</a>
+            <a href="projects/projetos.html" id="botao4">Projetos</a>
             <a href="https://www.linkedin.com/in/pedro-gontijo-braz-7b6014268/?original_referer=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2F&originalSubdomain=br" class="linkedin" target="_blank" rel="noopener no-referrer" id="botao5">Linkedin</a>
         </div>
         <label class="hamburger">
@@ -86,7 +86,9 @@
                 <div id="inicio" class="container">
                     <div class="text">
                             <div class="introducao">
-                                <button><i class="fa-solid fa-house"></i> INTRODUÇÃO</button>
+                                <div class="icons">
+                                    <button><i class="fa-solid fa-house"></i> INTRODUÇÃO</button>
+                                </div>
                             </div>
                         <h1>Especialista em<br>
                             <span class="text-theme">Desenvolvimento Web</span>
@@ -147,14 +149,6 @@
                                 <h3 class="harvard">Ciência da Computação</h3>
                                 <p>Programa de Certificação Harvard CS50x</p>
                               </li>
-                              <!-- <li class="event" data-date="2023">
-                                <h3>Curso de Java Avançado</h3>
-                                <p>Curso de Java Avançado pela Rocketseat</p>    
-                              </li>
-                              <li class="event" data-date="2023">
-                                <h3>Curso de Java Intermediário</h3>
-                                <p>Curso de Java Intermediário pela Rocketseat</p>    
-                              </li> -->
                               <li class="event" id="date" data-date="2023">
                                 <h3 class="alura">HTTP</h3>
                                 <p>Entendendo a web por baixo dos panos</p>    
@@ -176,22 +170,39 @@
                           </div>
                     </div>
                     </div>
-                    <!-- <div id="projetos" class="container">
-                        <div class="text">
-                            <div class="introducao">
-                                <button><i class="fa-solid fa-briefcase"></i> CONTATOS</button>
-                            </div>
-                            <h1>
-                                Meus
-                                <span class="text-theme">Contatos</span>
-                            </h1>
+
+                    <div id="timeline" class="container" style="height: auto; display: flex; justify-content: flex-start; flex-direction: column;">
+                    <div class="text">
+                        <div class="introducao">
+                            <button><i class="fa-solid fa-address-book"></i> CONTATO</button>
                         </div>
-                    </div> -->
+                        <h1>Entre em<span> Contato</span>
+                        </h1>
+                        <div class="text-test">
+                            <div class="text-timeline">
+                                <span>
+                                    Abaixo, você poderá entrar em contato comigo via email.
+                                </span>
+                            </div>
+                        </div>
+                        <div class="form-contato">
+                            <form id="form" action="https://formsubmit.co/pedrobrazdevs@gmail.com" method="POST">
+                                <input type="hidden" name="_next" value="http://127.0.0.1:5501/form/sucesso.html">
+                                <input type="text" name="name" placeholder="Digite seu nome" required>
+                                <input type="email" name="email" placeholder="Digite seu email" required>
+                                <input type="text" name="assunto" placeholder="Digite o assunto" required>
+                                <textarea name="messagem" placeholder="Digite a mensagem" required></textarea>
+                                <button type="submit">Enviar</button>
+                            </form>
+                        </div>
+                    </div>
+                    </div>
+                    
                     <div >
                         <div class="final">
                             <div class="footer">
                                 <p class="text-footer">
-                                    © 2024 Pedro Gontijo Braz - Todos os Direitos Reservados.
+                                    © 2024 <a href="https://github.com/pedrogbraz">Pedro Gontijo Braz</a> - Todos os Direitos Reservados.
                                     Elevando a sua experiência digital.
                                 </p>
                             </div>
