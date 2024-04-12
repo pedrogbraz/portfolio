@@ -85,3 +85,9 @@
     gap: 12px;
   }
 }
+@media (max-width: 467px) {
+  .language img {
+    width: 25px;
+    height: 23px;
+  }
+}
