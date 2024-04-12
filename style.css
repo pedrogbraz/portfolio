@@ -723,21 +723,6 @@ body {
         padding-left: 20px;
     }
  }
-
- @media (max-width: 500px) {
-    .footer {
-        width: 270px;
-    }
- }
-
- @media (max-width: 465px) {
-    .text-timeline {
-        max-width: 300px;
-        padding-top: 20px;
-        padding-left: 20px;
-    }
- }
-
  @media (max-width: 592px) {
     .test {
         width: 300px;
@@ -745,7 +730,28 @@ body {
         padding-left: 20px;
     }
  } 
+ @media (max-width: 500px) {
+    .footer {
+        width: 270px;
+    }
+ }
+ @media (max-width: 465px) {
+    .text-timeline {
+        max-width: 300px;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    #form input {
+        width: 300px;
+     }
 
+     #form textarea {
+        width: 295px;
+     }
+     #form button {
+        width: 300px;
+     }
+ }
  @media (max-width: 406px) {
 
     .separador {
