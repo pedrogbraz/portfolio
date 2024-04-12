@@ -710,6 +710,12 @@ body {
     }
  }
 
+@media (max-width: 699px) { 
+    .text-timeline {
+        margin-bottom: 40px;
+    }
+ }
+
  @media (max-width: 625px) {
     .text-timeline {
         width: 350px;
