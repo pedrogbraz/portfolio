@@ -5,18 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="timeline.css">
+    <link rel="stylesheet" href="languages.css">
     <link rel="stylesheet" href="root.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
+<body class="dark-mode">
     <div class="navbar">
         <i class="fa-solid fa-code"></i>
         <div class="links">
             <a href="#inicio" id="botao1">Inicio</a>
             <a href="#biografia" id="botao2">Biografia</a>
-            <a href="#timeline" id="botao3">Linha do tempo</a>
-            <a href="projects/projetos.html" id="botao4">Projetos</a>
+            <a href="#languages" id="botao3">Skills</a>
+            <a href="#contato">Contato</a>
+            <a href="projects/projects.html" id="botao4">Projetos</a>
             <a href="https://www.linkedin.com/in/pedro-gontijo-braz-7b6014268/?original_referer=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2F&originalSubdomain=br" class="linkedin" target="_blank" rel="noopener no-referrer" id="botao5">Linkedin</a>
         </div>
         <label class="hamburger">
@@ -129,49 +130,66 @@
                         </div>
                     </div>
                 </div>
-                <div id="timeline" class="container" style="height: auto; display: flex; justify-content: flex-start; flex-direction: column;">
+                <div id="languages" class="container" style="height: auto; display: flex; justify-content: flex-start; flex-direction: column;">
                     <div class="text">
                         <div class="introducao">
-                            <button><i class="fa-solid fa-timeline"></i> TIMELINE</button>
+                            <button><i class="fa-solid fa-timeline"></i> SKILLS</button>
                         </div>
-                        <h1>Minha<span> Educação</span>
+                        <h1>Minhas<span> Skills</span>
                         </h1>
                         <div class="text-test">
                             <div class="text-timeline">
                                 <span>
-                                    Abaixo, você encontrará mais detalhes sobre minha trajetória profissional, destacando minha expertise e realizações ao longo do tempo.
+                                    Abaixo, a esquerda você verá linguagens na qual eu possuo conhecimento, e a direita, as que estou aprendendo
                                 </span>
                             </div>
                         </div>
-                        <div id="timeline-content" class="timeline-content">
-                            <ul class="timeline">
-                              <li class="event" data-date="2024">
-                                <h3 class="harvard">Ciência da Computação</h3>
-                                <p>Programa de Certificação Harvard CS50x</p>
-                              </li>
-                              <li class="event" id="date" data-date="2023">
-                                <h3 class="alura">HTTP</h3>
-                                <p>Entendendo a web por baixo dos panos</p>    
-                              </li>
-                              <li class="event" data-date="2023">
-                                <h3 class="rocketseat">Ignite</h3>
-                                <p>Programa completo de especialização com React, Node e React Native</p>
-                              </li>
-
-                              <li class="event" data-date="2023">
-                                <h3 class="rocketseat">Discover</h3>
-                                <p>Curso de Desenvolvimento Web da Rocketseat</p>
-                              </li>
-                              <li class="event" data-date="2023">
-                                <h3 class="rocketseat">Explorer</h3>
-                                <p>Programa de formação completo para conquistar sua primeira vaga no mercado de programação</p>
-                              </li>
-                            </ul>
-                          </div>
+                        <div class="skills-languages">
+                            <div class="languages">
+                                <div class="language">
+                                    <img src="assets/html5.svg" alt="Logo HTML">
+                                </div>
+                                <div class="language">
+                                    <img src="assets/css3.svg" alt="Logo HTML">
+                                </div>
+                                <div class="language">
+                                    <img src="assets/js.svg" alt="Logo HTML">
+                                </div>
+                                <div class="language">
+                                    <img src="assets/tailwind.svg" alt="Logo HTML">
+                                </div>
+                                <div class="language">
+                                    <img src="assets/react.svg" alt="Logo HTML">
+                                </div>
+                                <div class="language">
+                                    <img src="assets/nextjs.svg" alt="Logo HTML">
+                                </div>
+                                <div class="language">
+                                    <img src="assets/typescript.svg" alt="Logo HTML">
+                                </div>
+                                <div class="language">
+                                    <img src="assets/nodejs.svg" alt="Logo HTML">
+                                </div>
+                            </div>
+                            <div class="languages">
+                                <div class="language">
+                                    <img src="assets/figma.svg" alt="Logo HTML">
+                                </div>
+                                <div class="language">
+                                    <img src="assets/java.svg" alt="Logo HTML">
+                                </div>
+                                <div class="language">
+                                    <img src="assets/sass.svg" alt="Logo HTML">
+                                </div>
+                                <div class="language">
+                                    <img src="assets/python.svg" alt="Logo HTML">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     </div>
 
-                    <div id="timeline" class="container" style="height: auto; display: flex; justify-content: flex-start; flex-direction: column;">
+                    <div id="contato" class="container" style="height: auto; display: flex; justify-content: flex-start; flex-direction: column;">
                     <div class="text">
                         <div class="introducao">
                             <button><i class="fa-solid fa-address-book"></i> CONTATO</button>

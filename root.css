@@ -2,13 +2,14 @@
     --color-black: #000000;
     --color-background-gray: #111011;
     --color-background-black: #0F0E0F;
-    --color-white: #ffffff;
-    --color-red-theme: #a51c30;
+    --color-white: #FFFFFF;
+    --color-theme: #A51C30;
     --color-text-navbar: #5C5C5C;
     --nightBlack: #212223;
     --textColor: #999999;
     --power__black: #18191A;
-    --metalBlack: #2d2e2f;
+    --metalBlack: #2D2E2F;
     --greyBlack200: #333333;
-    --color-rocketseat: #8257e5;
-}
+    --navbar-color: #FFFFFF;
+  }
+  

@@ -24,7 +24,7 @@ body {
     align-items: center;
     padding-left: 20px;
     font-size: 1.5em;
-    color: var(--color-red-theme);
+    color: var(--color-theme);
     user-select: none;
 }
 
@@ -63,7 +63,7 @@ body {
     left: 0;
     width: 100%;
     height: 1px;
-    background: white;
+    background: var(--navbar-color);
     transform: scaleX(0);
     transition: transform 200ms;
     transform-origin: right;
@@ -75,7 +75,7 @@ body {
 }
 
 .navbar a:hover {
-    color: white;
+    color: var(--navbar-color);
 }
 
 .navbar .closeMobileMenu {
@@ -136,7 +136,7 @@ body {
 }
 
 .introducao button i{
-    color: var(--color-red-theme);
+    color: var(--color-theme);
  }
 
  /* Divs Pai */
@@ -210,7 +210,7 @@ body {
     font-weight: 500;
     margin-top: .1em;
     position: fixed;
-    color: var(--color-red-theme);
+    color: var(--color-theme);
     font-size: 14px;
     display: flex;
     justify-content: center;
@@ -226,7 +226,7 @@ body {
 }
 
 .perfil .stack {
-    color: var(--color-red-theme);
+    color: var(--color-theme);
     font-size: 14;
     font-weight: 300;
 }
@@ -318,7 +318,7 @@ body {
   }
 
   .redes:hover {
-    border: 2.5px solid var(--color-red-theme);
+    border: 2.5px solid var(--color-theme);
     transform: scale(1.02);
   }
 
@@ -330,7 +330,7 @@ body {
 }
 
 .redes a:hover {
-    color: var(--color-red-theme);
+    color: var(--color-theme);
 }
 
 
@@ -346,6 +346,7 @@ body {
     padding: 0 20px;
 }
 
+
 #inicio h1 {
     font-weight: 600;
     font-size: 35px;
@@ -356,7 +357,7 @@ body {
 
 #inicio h1 span {
     font-size: 36px;
-    color: var(--color-red-theme);
+    color: var(--color-theme);
     font-weight: 600;
 }
 
@@ -370,7 +371,7 @@ body {
 
 .container h1 span {
     font-size: 45px;
-    color: var(--color-red-theme);
+    color: var(--color-theme);
     font-weight: 600;
 }
 
@@ -435,7 +436,7 @@ body {
 }
 
 .container .button-container a {
-    background-color: var(--color-red-theme);
+    background-color: var(--color-theme);
     color: var(--color-white);
     border: 0;
     font-weight: 500;
@@ -468,7 +469,7 @@ body {
 
  .title h1 {
     font-weight: 600;
-    color: var(--color-red-theme);
+    color: var(--color-theme);
     font-size: 36px;
  }
 
@@ -536,8 +537,8 @@ body {
  }
 
  #form button:hover {
-    border: 1px solid var(--color-red-theme);
-    color: var(--color-red-theme);
+    border: 1px solid var(--color-theme);
+    color: var(--color-theme);
  }
 
  /* Footer */
@@ -555,7 +556,7 @@ body {
  }
 
  .footer a:hover {
-    color: var(--color-red-theme);
+    color: var(--color-theme);
  }
 
 .footer {
@@ -788,7 +789,7 @@ body {
     #inicio h1 span {
         text-align: start;
         font-size: 24px;
-        color: var(--color-red-theme);
+        color: var(--color-theme);
         font-weight: 500;
         padding-right: 20px
     }
