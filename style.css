@@ -33,7 +33,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5rem 2rem .2rem 2rem;
+    padding: 1.5rem 2rem .2rem;
 }
 
 .navbar .links {
@@ -98,7 +98,7 @@ body {
 
 .line {
   fill: none;
-  stroke: white;
+  stroke: var(--color-white);
   stroke-linecap: round;
   stroke-linejoin: round;
   stroke-width: 3;
@@ -128,7 +128,7 @@ body {
 
 .introducao button {
    color: var(--color-white);
-   padding: 7px 20px 7px 20px;
+   padding: 7px 20px;
    background-color: var(--nightBlack);
    border: 1px solid var(--greyBlack200);
    border-radius: 32px;
@@ -206,21 +206,6 @@ body {
     justify-content: center;
  }
 
- #typing-text {
-    font-weight: 500;
-    margin-top: .1em;
-    position: fixed;
-    color: var(--color-theme);
-    font-size: 14px;
-    display: flex;
-    justify-content: center;
-    border-right: 2px solid;
-    padding-right: 2px;
-    white-space: nowrap;
-    overflow: hidden;
-    animation: typing-animation 2s steps(20, end) infinite, blink-caret .25s step-end infinite;
-}
-
 .separador {
     margin-top: 28px;
 }
@@ -235,7 +220,7 @@ body {
     width: 75%;
     height: 1px; /* Espessura da linha */
     background-color: var(--metalBlack); /* Cor da linha */
-    margin: 20px 0px 0px 40px; /* Espaçamento acima e abaixo da linha */
+    margin: 20px 0 0 40px; /* Espaçamento acima e abaixo da linha */
 }
 
 .list {
@@ -250,14 +235,13 @@ body {
 
 .region {
     display: grid;
-    gap: 20px;
-    margin: 20px 20px;
+    margin: 20px;
     width: 260px;
     padding-left: 20px;
 }
 
 .region .place {
-    color: white;
+    color: var(--color-white);
     font-weight: 600;
     font-size: 14px;
 }
@@ -278,7 +262,7 @@ body {
     color: var(--color-white);
     font-weight: 500;
     font-size: .875rem;
-    border: 1px solid rgb(255, 0, 170255, 0, 0);
+    border: 1px solid #f0f0;
 }
 
 
@@ -290,7 +274,7 @@ body {
 
 .skills {
     padding: 16px 24px 20px 30px;
-    margin: 0px 12px 12px 12px;
+    margin: 0 12px 12px;
     background-color: var(--metalBlack);
     border-radius: 15px;
 }
@@ -308,13 +292,13 @@ body {
     width: 50px;
     height: 50px;
     border: 2.5px solid var(--color-text-navbar);
-    background-color: rgba(255, 0, 0, 0);
+    background-color: #f000;
     border-radius: 50%; /* para tornar a div uma bolinha */
-    color: white;
+    color: var(--color-white);
     font-size: 22px;
     text-align: center;
     line-height: 50px; /* para centralizar verticalmente o texto */
-    transition: 0.3s;
+    transition: .3s;
   }
 
   .redes:hover {
@@ -326,7 +310,7 @@ body {
     display: block;
     color: var(--textColor);
     text-decoration: none;
-    transition: 0.3s;
+    transition: .3s;
 }
 
 .redes a:hover {
@@ -417,7 +401,7 @@ body {
 }
 
 .contratos {
-    padding: 30px 0px 5px 20px;
+    padding: 30px 0 5px 20px;
 }
 
 .contratos span{
@@ -432,7 +416,7 @@ body {
     display: inline-block;
     margin-top: 30px;
     padding: 20px;
-    transition: 0.3s ease;
+    transition: .3s ease;
 }
 
 .container .button-container a {
@@ -450,7 +434,7 @@ body {
 }
 
 
-.text-timeline {
+.text-languages {
     padding-left: 20px;
     color: var(--textColor);
     width: 550px;
@@ -643,10 +627,6 @@ body {
         border-bottom: 1px solid var(--greyBlack200);
     }
 
-    .span-container {
-        padding-bottom: 40px;
-    }
-
     .navbar .links button {
         width: 100% !important;
     }
@@ -655,7 +635,7 @@ body {
         position: absolute;
         top: 1rem;
         right: 1rem;
-        color: white;
+        color: var(--color-white);
         font-size: 2em;
     }
 
@@ -698,10 +678,6 @@ body {
         max-width: 100%;
         height: auto;
     }
-
-    .timeline {
-        margin: 50px auto;
-    }
  }
 
  @media (max-width: 800px) { 
@@ -711,13 +687,13 @@ body {
  }
 
 @media (max-width: 699px) { 
-    .text-timeline {
+    .text-languages {
         margin-bottom: 40px;
     }
  }
 
  @media (max-width: 625px) {
-    .text-timeline {
+    .text-languages {
         width: 350px;
         padding-top: 20px;
         padding-left: 20px;
@@ -736,7 +712,7 @@ body {
     }
  }
  @media (max-width: 465px) {
-    .text-timeline {
+    .text-languages {
         max-width: 300px;
         padding-top: 20px;
         padding-left: 20px;
@@ -780,7 +756,7 @@ body {
         padding-right: 20px;
     }
 
-    .text-timeline {
+    .text-languages {
         padding-top: 20px;
         width: 250px;
     }
@@ -813,7 +789,7 @@ body {
     }
 
     #introduct {
-        padding: 20px 40px 0px 20px;
+        padding: 20px 40px 0 20px;
     }
 
     .button-container {
@@ -827,10 +803,7 @@ body {
 
 @media (max-width: 360px) {
 
-    .text-timeline {
+    .text-languages {
         display: none;
     }
 }
-
-
-
